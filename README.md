@@ -25,4 +25,4 @@ Frontend: HTML, CSS
 
 Sigue estos pasos para configurar el proyecto localmente:
 
-Clona este repositorio: git clone
+Clona este repositorio: git clone https://github.com/bauercn/Talento-Tech.git
