@@ -54,8 +54,8 @@
 }
 
 .banner {
-    background-image: url("https://img.freepik.com/foto-gratis/surtido-comics-burbujas-discurso_23-2149006175.jpg?t=st=1734748950~exp=1734752550~hmac=1a6a7f5468647d60f8665c45d98511d63532bf9b051a8d9953c8113ecfc96fbf&w=1380");
-    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1690701804419-7bd94e046e74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size:cover;
     width: 100%;
     background-position:center;
     margin-top: 120px;
@@ -78,22 +78,22 @@
 
 .banner h1 {
     font-size: 32px;
-    color: #333;
+    color: #fff;
     font-weight: 700;
 }
 
 .banner p {
     font-size: 24px;
-    color: #333;
+    color: #fff;
     font-weight: 500;
 
 }
 
 .banner-carrito {
-  background-image: url("https://img.freepik.com/foto-gratis/mujer-sosteniendo-espacio-copia-bolsa-negra_23-2148665753.jpg?t=st=1734908446~exp=1734912046~hmac=1264f998e6330d81c8f085db223945199b25e88e84c45212df482445d2b79a87&w=1380");
-  background-size: center;
+  background-image: url("https://images.unsplash.com/photo-1556741533-411cf82e4e2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size:cover;
   width: 100%;
-  background-position: center;
+  background-position:center;
   margin-top: 120px;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .banner-productos {
-  background-image: url("https://img.freepik.com/foto-gratis/surtido-viernes-negro-estilo-papel_23-2149074082.jpg?t=st=1734908060~exp=1734911660~hmac=51c8aa6b2123e07df6bc3b1d77447a2c929be0fb3fe70b950598a61174aef865&w=1060");
+  background-image: url("https://images.unsplash.com/photo-1650737736263-67daef292284?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   width: 100%;
   background-position: center;
@@ -686,14 +686,6 @@ footer {
       font-size: 1.2rem;
   }
 
-  .hero-nosotros h1 {
-    font-size: 2rem;
-}
-
-  .hero-nosotros p {
-      font-size: 1rem;
-  }
-
   .historia, .valores, .equipo, .cta {
       padding: 20px 10px;
   }
@@ -803,13 +795,6 @@ footer {
       padding: 20px;
     }
 
-    .hero-nosotros h1 {
-      font-size: 2.2rem;
-  }
-
-  .hero-nosotros p {
-      font-size: 1.1rem;
-  }
 
   .historia, .valores, .equipo, .cta {
       padding: 30px 15px;
@@ -921,14 +906,6 @@ footer {
   .beneficio,
   .testimonio-card {
     padding: 25px;
-  }
-
-  .hero-nosotros h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero-nosotros p {
-      font-size: 1.2rem;
   }
 
   .historia, .valores, .equipo, .cta {
@@ -1118,21 +1095,26 @@ footer {
 
 /* Sección Hero */
 .hero-nosotros {
-  text-align: center;
-  padding: 60px 20px;
-  background: #ff6f61;
-  color: #fff;
-  border-radius: 8px;
+  background-image: url("https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size:cover;
+  width: 100%;
+  background-position:center;
   margin-top: 120px;
 }
 
-.hero-nosotros h1 {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
+.hero-nosotros::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
 }
 
-.hero-nosotros p {
-  font-size: 1.2rem;
+.hero-nosotros .container-nosotros {
+    height: 75vh;
+    z-index: 1;
+    position: relative;
 }
 
 /* Sección Historia */
