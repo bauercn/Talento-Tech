@@ -1,4 +1,4 @@
-V1
+**V1**
 
 **SQUARE**
 
@@ -30,7 +30,10 @@ Sigue estos pasos para configurar el proyecto localmente:
 
 Clona este repositorio: git clone https://github.com/bauercn/Talento-Tech.git
 
-V2 
+
+
+
+**V2** 
 
 - Se modificaron los links de navegación de la página para adaptarla de mejor manera al contenido que ofrece.
 - Se le colocó el título correcto al sitio web para que aparezca en las solapas del navegador.
