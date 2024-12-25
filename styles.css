@@ -570,16 +570,23 @@ footer {
     }
 
     .banner {
-        padding: 40px 15px;
-    }
+      height: auto; /* Ajusta la altura automáticamente */
+      margin-top: 80px; /* Reduce el margen superior */
+      background-position: top center; /* Reenfoca el fondo */
+  }
 
-    .banner h1 {
-        font-size: 32px;
-    }
+  .banner .container {
+      height: 150px; /* Permite que el contenido fluya */
+      padding: 20px; /* Añade espaciado interno */
+  }
 
-    .banner p {
-        font-size: 16px;
-    }
+  .banner h1 {
+      font-size: 24px; /* Reduce el tamaño del título */
+  }
+
+  .banner p {
+      font-size: 16px; /* Reduce el tamaño del texto secundario */
+  }
 
     .btn-shop-now {
         padding: 10px 20px;
@@ -719,6 +726,14 @@ footer {
       font-size: 0.9rem;
       padding: 10px 20px;
   }
+
+  #dinamic-button {
+    background: #ff6f61;
+  }
+  
+  #dinamic-button:hover {
+    background: #ff4a3d;
+  }
 }
 
 /* Dispositivos medianos (min-width: 768px y max-width: 992px) */
@@ -730,6 +745,24 @@ footer {
     nav ul {
         gap: 24px;
     }
+
+    .banner {
+      margin-top: 100px; /* Ajusta el margen superior */
+      background-position: center center; /* Centra el fondo */
+  }
+
+  .banner .container {
+    height:250px; /* Permite que el contenido fluya */
+    padding: 20px; /* Añade espaciado interno */
+}
+
+  .banner h1 {
+      font-size: 28px; /* Tamaño intermedio para el título */
+  }
+
+  .banner p {
+      font-size: 20px; /* Tamaño intermedio para el texto secundario */
+  }
 
     .grid-motivos,
     .grid-beneficios,
@@ -838,6 +871,14 @@ footer {
     margin: 0 auto;
     padding: 0 40px;
   }
+
+  #dinamic-button {
+    background: #ff6f61;
+  }
+  
+  #dinamic-button:hover {
+    background: #ff4a3d;
+  }
 }
 
 
@@ -862,6 +903,20 @@ footer {
         visibility: visible;
     }
     
+    .banner {
+      margin-top: 60px; /* Reduce el margen superior */
+      height: 75vh; /* Asegura una altura consistente */
+      background-position: center; /* Centra completamente el fondo */
+  }
+  
+
+  .banner h1 {
+      font-size: 36px; /* Mayor tamaño para pantallas grandes */
+  }
+
+  .banner p {
+      font-size: 28px; /* Ajusta el texto secundario */
+  }
 
     .footer-links {
         display: flex;
@@ -1322,4 +1377,17 @@ footer {
 
 .custom-swal-button:hover {
   background: #ff4a3d;
+}
+
+.banner {
+  
+}
+
+.banner-carrito {
+
+}
+
+.banner-productos {
+
+}
 }
