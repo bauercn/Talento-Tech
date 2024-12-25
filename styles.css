@@ -485,7 +485,6 @@ footer {
     list-style: none;
     font-size: 16px;
     display: block;
-    margin: 0 -32px;
 }
 
 .footer-link-column ul li a {
@@ -831,6 +830,12 @@ footer {
   .cta .btn-primary {
       font-size: 1rem;
       padding: 12px 25px;
+  }
+
+  .footer-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
   }
 }
 
