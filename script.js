@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () =>
             productosContainer.appendChild(cardDiv);
           });
   
-          pageInfo.textContent = `Page ${currentPage}`;          
+          pageInfo.textContent = `Página ${currentPage}`;          
           prevBtn.disabled = currentPage === 1;
           nextBtn.disabled = (currentPage * limit) >= totalProductos;
   
