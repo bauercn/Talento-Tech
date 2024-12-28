@@ -861,7 +861,7 @@ footer {
 
     .hero-section .container {
         padding: 20px;
-        height: 30vh; 
+        height: 40vh; 
     }
 
     .hero-section h1 {
@@ -1118,7 +1118,7 @@ footer {
     /* Hero Section */
 
     .hero-section .container {
-        height: 40vh; 
+        height: 50vh; 
         padding: 30px; 
     }
 
@@ -1392,7 +1392,7 @@ footer {
     /* Hero Section */
 
     .hero-section .container {
-        height: 50vh; 
+        height: 60vh; 
         padding: 40px;
     }
 
@@ -1685,7 +1685,7 @@ footer {
     /* Hero Section */
 
     .hero-section .container {
-        height: 100vh; 
+        height: 80vh; 
         padding: 60px; 
     }
 
